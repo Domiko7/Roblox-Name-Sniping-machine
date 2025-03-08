@@ -2,7 +2,8 @@
 <img alt="Discord" src="https://img.shields.io/discord/1334954823598084217">
 
 ------
-
+### Please do not say yes on the first input because there is a temporary bug
+------
 
 ## Contributors
 - Domiko7 `Whole app`
