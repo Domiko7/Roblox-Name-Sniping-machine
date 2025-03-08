@@ -1,4 +1,4 @@
-# Roblox name snipe machine
+# Roblox name sniping machine
 <img alt="Discord" src="https://img.shields.io/discord/1334954823598084217">
 
 ------
