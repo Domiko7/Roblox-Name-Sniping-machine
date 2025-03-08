@@ -34,7 +34,7 @@ def checkUsername(username):
         print(Fore.YELLOW + f"glitch {username}: {e}" + Style.RESET_ALL)
     return False
 
-print('Do you want to check every username? (yes/no)')
+print('Do you want to check it sorted? (yes/no) (for now you can only choose no or else it will break)')
 everyUsername = input().strip().lower()
 
 print('How many letters do you want it to be?')
@@ -51,7 +51,7 @@ else:
 fourLetterCombinations = [''.join(comb) for comb in itertools.product(characters, repeat=num)]
 
 if everyUsername == 'no':
-    new = random.sample(fourLetterCombinations, 100)
+    new = random.sample(fourLetterCombinations, 1)
 else:
     new = fourLetterCombinations
 while True:
@@ -60,7 +60,7 @@ while True:
         if war:
             break
     if everyUsername == 'no':
-        new = random.sample(fourLetterCombinations, 100)
+        new = random.sample(fourLetterCombinations, 1)
 
 
 
