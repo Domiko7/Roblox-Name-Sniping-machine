@@ -17,6 +17,11 @@ To get started, clone this repository:
 ```bash
 git clone https://github.com/Domiko7/Roblox-Name-Sniping-machine
 ```
+but before you need to 
+```bash
+pip install requests colorama plyer
+```
+
 
 ## Release Rules
 - If there is a bug in the new version that has not been listed, please submit the bug information to an ```issue```.
