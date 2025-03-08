@@ -1,18 +1,11 @@
-# Template
+# Roblox name snipe machine
 <img alt="Discord" src="https://img.shields.io/discord/1334954823598084217">
 
 ------
 
-- This is Domiko's template
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 
 ## Contributors
-- Domiko7 `Documentation`
+- Domiko7 `Whole app`
 
 ------
 
@@ -21,7 +14,7 @@
 To get started, clone this repository:
 
 ```bash
-git clone https://github.com/Domiko7/Domiko-s-Template
+git clone https://github.com/Domiko7/Roblox-Name-Sniping-machine
 ```
 
 ## Release Rules
