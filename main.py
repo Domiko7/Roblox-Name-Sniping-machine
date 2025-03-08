@@ -50,14 +50,21 @@ else:
 
 fourLetterCombinations = [''.join(comb) for comb in itertools.product(characters, repeat=num)]
 
-if everyUsername != 'yes':
-    fourLetterCombinations = random.sample(fourLetterCombinations, 500)
+if everyUsername == 'no':
+    new = random.sample(fourLetterCombinations, 100)
+else:
+    new = fourLetterCombinations
 while True:
-    for username in fourLetterCombinations:
+    for username in new:
         checkUsername(username)
         if war:
             break
     if everyUsername == 'no':
-        fourLetterCombinations = random.sample(fourLetterCombinations, 500)
+        new = random.sample(fourLetterCombinations, 100)
+
+
+
+
+
 
 
